@@ -1,0 +1,172 @@
+[
+    {
+     "id": 11,
+     "nama": "ACEH",
+     "name_english": "ACEH"
+    },
+    {
+     "id": 12,
+     "nama": "SUMATERA UTARA",
+     "name_english": "NORTH SUMATRA"
+    },
+    {
+     "id": 13,
+     "nama": "SUMATERA BARAT",
+     "name_english": "WEST SUMATRA"
+    },
+    {
+     "id": 14,
+     "nama": "RIAU",
+     "name_english": "RIAU"
+    },
+    {
+     "id": 15,
+     "nama": "JAMBI",
+     "name_english": "JAMBI"
+    },
+    {
+     "id": 16,
+     "nama": "SUMATERA SELATAN",
+     "name_english": "SOUTH SUMATRA"
+    },
+    {
+     "id": 17,
+     "nama": "BENGKULU",
+     "name_english": "BENGKULU"
+    },
+    {
+     "id": 18,
+     "nama": "LAMPUNG",
+     "name_english": "LAMPUNG"
+    },
+    {
+     "id": 19,
+     "nama": "KEPULAUAN BANGKA BELITUNG",
+     "name_english": "BANGKA BELITUNG ISLAND"
+    },
+    {
+     "id": 21,
+     "nama": "KEPULAUAN RIAU",
+     "name_english": "RIAU ISLAND"
+    },
+    {
+     "id": 31,
+     "nama": "DAERAH KHUSUS IBUKOTA JAKARTA",
+     "name_english": "JAKARTA"
+    },
+    {
+     "id": 32,
+     "nama": "JAWA BARAT",
+     "name_english": "WEST JAVA"
+    },
+    {
+     "id": 33,
+     "nama": "JAWA TENGAH",
+     "name_english": "CENTRAL JAVA"
+    },
+    {
+     "id": 34,
+     "nama": "DAERAH ISTIMEWA YOGYAKARTA",
+     "name_english": "YOGYAKARTA"
+    },
+    {
+     "id": 35,
+     "nama": "JAWA TIMUR",
+     "name_english": "EAST JAVA"
+    },
+    {
+     "id": 36,
+     "nama": "BANTEN",
+     "name_english": "BANTEN"
+    },
+    {
+     "id": 51,
+     "nama": "BALI",
+     "name_english": "BALI"
+    },
+    {
+     "id": 52,
+     "nama": "NUSA TENGGARA BARAT",
+     "name_english": "WEST NUSA TENGGARA"
+    },
+    {
+     "id": 53,
+     "nama": "NUSA TENGGARA TIMUR",
+     "name_english": "EAST NUSA TENGGARA"
+    },
+    {
+     "id": 61,
+     "nama": "KALIMANTAN BARAT",
+     "name_english": "WEST KALIMANTAN"
+    },
+    {
+     "id": 62,
+     "nama": "KALIMANTAN TENGAH",
+     "name_english": "CENTRAL KALIMANTAN"
+    },
+    {
+     "id": 63,
+     "nama": "KALIMANTAN SELATAN",
+     "name_english": "SOUTH KALIMANTAN"
+    },
+    {
+     "id": 64,
+     "nama": "KALIMANTAN TIMUR",
+     "name_english": "EAST KALIMANTAN"
+    },
+    {
+     "id": 65,
+     "nama": "KALIMANTAN UTARA",
+     "name_english": "NORTH KALIMANTAN"
+    },
+    {
+     "id": 71,
+     "nama": "SULAWESI UTARA",
+     "name_english": "NORTH SULAWESI"
+    },
+    {
+     "id": 72,
+     "nama": "SULAWESI TENGAH",
+     "name_english": "CENTRAL SULAWESI"
+    },
+    {
+     "id": 73,
+     "nama": "SULAWESI SELATAN",
+     "name_english": "SOUTH SULAWESI"
+    },
+    {
+     "id": 74,
+     "nama": "SULAWESI TENGGARA",
+     "name_english": "SOUTHEAST SULAWESI"
+    },
+    {
+     "id": 75,
+     "nama": "GORONTALO",
+     "name_english": "GORONTALO"
+    },
+    {
+     "id": 76,
+     "nama": "SULAWESI BARAT",
+     "name_english": "WEST SULAWESI"
+    },
+    {
+     "id": 81,
+     "nama": "MALUKU",
+     "name_english": "MALUKU"
+    },
+    {
+     "id": 82,
+     "nama": "MALUKU UTARA",
+     "name_english": "NORTH MALUKU"
+    },
+    {
+     "id": 91,
+     "nama": "PAPUA BARAT",
+     "name_english": "WEST PAPUA"
+    },
+    {
+     "id": 94,
+     "nama": "PAPUA",
+     "name_english": "PAPUA"
+    }
+   ]

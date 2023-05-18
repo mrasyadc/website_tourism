@@ -1,0 +1,12 @@
+<%-  include ('layout/header') %>
+<%- include('layout/nav') %>
+    <h3>Users List</h3>
+    <% if (pengguna.length <1 ) { %>
+        <p>tidak ada pengguna</p>
+    <% } else { %> 
+        <% pengguna.forEach(u => { %>
+            <li>nama : <%= u.name %></li>
+            <li>umur : <%= u.age %></li>
+        <% }) %> 
+    <% } %>
+<%- include('layout/footer') %>
