@@ -13,27 +13,32 @@ app.get('/', (req, res) => {
     const name = req.query.name || 'Guest';
     const title = 'Home';
     const home = true;
+    res.locals.home = home;
     res.render('home',
-    {name,title,home});
+    {name,title});
 });
 app.get('/about', (req, res) => {
     const title = 'About';
+    const home = false;
+    res.locals.home = home;
     res.render('about', {title});
 });
 
-app.get('/users', (req, res) => {
-    const pengguna = [
-    {name: 'Arya', age: 20},
-    {name: 'John', age: 25},
-    {name: 'Sansa', age: 23}
-    ]
+app.get('/register', (req, res) => {
+    const title = 'Register';
+    res.render('register', {title});
+});
 
-    res.render('users', 
-    {
-    name : 'Arya',
-    title:'Users Profile',
-    pengguna,
-    });
+app.get('/signin', (req, res) => {
+    const title = 'Login';
+    res.render('signin', {title});
+});
+
+app.get('/category', (req, res) => {
+    const title = 'Category';
+    const home = false;
+    res.locals.home = home;
+    res.render('category', {title});
 });
 
 // app.get('/api/v1/books/:id', (req, res) => {

@@ -1,19 +1,57 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- Container wrapper -->
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Tripshii</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <!-- Navbar brand -->
+    <div>
+      <a class="navbar-brand" href="/">Tripshii</a>
+    </div>
+    <!-- Toggle button -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarButtonsExample"
+      aria-controls="navbarButtonsExample"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="bi bi-list"></i>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarButtonsExample">
+      <!-- Left links -->
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="#">Sign in</a>
+          <% if (!home) { %>
+            <form class="d-flex mt-4 mt-lg-0" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          <% } %>
         </li>
       </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+      <!-- Left links -->
+
+      <div class="d-flex align-items-center">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <button type="button" class="btn btn-success mb-2 mb-lg-0 px-3 me-2">
+              Login
+            </button>
+          </li>  
+          <li class="nav-item">
+            <button type="button" class="btn btn-primary me-3">
+              Sign up for free
+            </button>
+          </li>
+        </ul>
+      </div>
     </div>
+    <!-- Collapsible wrapper -->
   </div>
+  <!-- Container wrapper -->
 </nav>
+<!-- Navbar -->
+
