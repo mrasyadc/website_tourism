@@ -36,7 +36,7 @@ app.get('/signin', (req, res) => {
 
 app.get('/category', (req, res) => {
     const title = 'Category';
-    const home = false;
+    const home = true;
     res.locals.home = home;
     res.render('category', {title});
 });
