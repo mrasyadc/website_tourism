@@ -1,6 +1,10 @@
 const e = require('express');
 const express = require('express');
 const app = express();
+const axios = require('axios');
+const dotenv = require('dotenv');
+dotenv.config();
+
 
 const port = process.env.PORT || 8000;
 app.use(express.urlencoded({extended : true}))
@@ -9,13 +13,27 @@ app.use(express.json())
 // using ejs
 app.set('view engine', 'ejs');
 
-app.get('/', (req, res) => {
+// fetch json
+
+async function getJsonfromURL(url){
+    try{
+        const response = await axios.get(url)
+        return response.data
+    }
+    catch(error){
+        console.log(error)
+    }
+}
+
+app.get('/', async (req, res) => {
     const name = req.query.name || 'Guest';
     const title = 'Home';
     const home = true;
+    const provinsi = await getJsonfromURL(process.env.provinsi_json_url);
+    console.log(provinsi)
     res.locals.home = home;
     res.render('home',
-    {name,title});
+    {name,title,provinsi});
 });
 app.get('/about', (req, res) => {
     const title = 'About';
