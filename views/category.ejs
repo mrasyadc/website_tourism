@@ -2,9 +2,16 @@
     <%- include('layout/nav') %>
         <div class=container>
             <div class="mt-5">
-                <h2>
-                    Sacred and Religious Sites in Indonesia
-                </h2>
+                    <% if (category == 1) { %>
+                        <h2>
+                            Sacred and Religious Sites
+                        </h2>
+                    <% } %>
+                    <% if (category == 2) { %>
+                        <h2>
+                            Nature and Parks
+                        </h2>
+                    <% } %>
             </div>
             <!-- search bar -->
             <div class="d-flex justify-content-center ms-auto me-auto col-lg-6 col-md-10 py-5">
@@ -67,7 +74,11 @@
                             </div>
                             <div class="col-md-6 my-0">
                                 <div class="card-body py-0 px-3">
-                                    <h5 class="card-title">Tanah lot</h5>
+                                    <h5 class="card-title">
+                                    <a href="/test2?provinsi=Bali&name=Tanah Lot Temple">
+                                        Tanah lot
+                                    </a>
+                                    </h5>
                                     <p class="card-text">
                                         This is a wider card with supporting text below as a natural lead-in to
                                         additional content. This content is a little bit longer.
